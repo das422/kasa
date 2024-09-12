@@ -5,7 +5,7 @@ import Card from '../card/Card'
 export default function Gallery() {
 
     return (
-        <main className='home_gallery'>
+        <section className='home_gallery'>
             {datas.map(data => {
                 return (
                     <Card
@@ -16,6 +16,6 @@ export default function Gallery() {
                     />
                 )
             })}
-        </main>
+        </section>
     )
 }
