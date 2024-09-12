@@ -15,7 +15,7 @@ export default function NotFound() {
           Oups! La page que vous demandez n'existe pas.
         </p>
       </div>
-      <Link className="notFound_infos_return" to="/Kasa">
+      <Link className="notFound_infos_return" to="/">
         Retourner sur la page d'accueil
       </Link>
     </div>
