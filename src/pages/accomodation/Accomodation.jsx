@@ -3,7 +3,6 @@ import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom";
 import datas from '@/data/data'
 import Slider from "@/components/carousel/Carousel"
-import Footer from "@/components/footer/Footer";
 import Collapse from '@/components/collapse/Collapse';
 import NotFound from '../notFound/NotFound';
 import Tag from '@/components/tag/Tag';
@@ -69,7 +68,6 @@ export default function Accomodation() {
 					</div>
 				</div>
 			</main>
-			<Footer />
 		</div>
 	)
 }
